@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.sample_app">
+    package="com.sawolabs.kotlinsampleapp">
 
     <application
         android:allowBackup="true"
@@ -11,8 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sampleapp">
-        <activity android:name=".CallbackActivity" />
-        <activity android:name=".MainActivity"
+        <activity android:name="com.sawolabs.kotlinsampleapp.CallbackActivity" />
+        <activity android:name="com.sawolabs.kotlinsampleapp.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

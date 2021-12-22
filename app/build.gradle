@@ -1,13 +1,14 @@
 plugins {
     id 'com.android.application'
 }
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 31
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.sample_app"
+        applicationId 'com.sawolabs.kotlinsampleapp'
         minSdkVersion 24
         targetSdkVersion 31
         versionCode 1
@@ -39,6 +40,11 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'com.github.sawolabs:Android-SDK:0.1.9'
     implementation 'com.github.Omega-R:OmegaCenterIconButton:0.0.4@aar'
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
 
+}
+repositories {
+    mavenCentral()
 }
