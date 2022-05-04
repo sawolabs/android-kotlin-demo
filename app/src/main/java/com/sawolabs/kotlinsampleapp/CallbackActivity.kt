@@ -4,7 +4,8 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.sawolabs.androidsdk.LOGIN_SUCCESS_MESSAGE
+import com.sawolabs.androidsdk.util.Constants.Companion.LOGIN_SUCCESS_MESSAGE
+
 
 class CallbackActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
